@@ -1,0 +1,51 @@
+{
+	"module": "SupplierRegistrationElements",
+	"models": [
+	{
+
+			"name": "supplierRegistrations",
+			"elements": [
+				{
+					"key": "supplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegistrationsLink",
+					"value": "link_ivmenu00_menu_0_sub1",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegStatus",
+					"value": "ddlbody_x_selSearchStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegCommodity",
+					"value": "body_x_selFamily_x_txtselFamily_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegAlerts",
+					"value": "body_x_selAnomalies_x_txtselAnomalies_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegKeywords",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegSearch",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "supplierRegReset",
+					"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+					"type": "ID"
+				}
+			]
+		}
+	]
+}				

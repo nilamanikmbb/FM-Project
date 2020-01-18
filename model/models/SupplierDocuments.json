@@ -1,0 +1,55 @@
+{
+	"module": "SupplierDocumentsElements",
+	"models": [
+				{
+			"name": "supplierDocumentsPage",
+			"elements": [
+				{
+					"key": "supplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocument",
+					"value": "link_ivmenu00_menu_0_sub6",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentType",
+					"value": "ddlbody_x_selDocType_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentKeywords",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentStatus",
+					"value": "ddlbody_x_selDocStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentDisplayRadioBtn",
+					"value": "body_x_chkArchive_x0",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentSearch",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentReset",
+					"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "supplierDocumentSupplierDots",
+					"value": "body_x_selSupplier_x_btnselSupplier_btn2",
+					"type": "ID"
+				}
+			]
+		}
+	]
+}				

@@ -1,0 +1,61 @@
+{
+	"module":"SupplierContactElements",
+	"models": [
+					{
+					 "name" : "SupplierContactPage",
+					 "elements" : [
+					      {
+					      "key" : "supplierLink",
+					      "value" : "link_ivmenu00_menu_0",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "browseSupplierContactLink",
+					      "value" : "link_ivmenu00_menu_0_sub8",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactsKeywords",
+					      "value" : "body_x_txtQuery_x_x",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactsSupplierThreeDots",
+					      "value" : "body_x_selSupplier_x_btnselSupplier_btn2",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactsContactType",
+					      "value" : "ddlbody_x_ddlContactType_x",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactDeleteRadioBtn",
+					      "value" : "body_x_chkContactDelete_x0",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactViewPhotosRadioBtn",
+					      "value" : "body_x_chkShowPictures_x0",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactWithoutAScopeRadioBtn",
+					      "value" : "body_x_chkOrphan_x0",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactSearch",
+					      "value" : "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					      "type" : "ID"
+					      },
+					      {
+					      "key" : "supplierContactReset",
+					      "value" : "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+					      "type" : "ID"
+					      }
+	    			 ]
+			   }
+	    ]
+}					  
+					                

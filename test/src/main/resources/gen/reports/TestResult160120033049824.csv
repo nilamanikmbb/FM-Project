@@ -1,0 +1,3 @@
+"Id","TestCaseName","Result","Comment"
+"a570f9cf-8f2e-4d54-9d9a-9a5a53702004","CreateSpecialRequestsRequisitions","Fail","Failed to Create Requisitions"
+"15fa7fb1-649e-458b-98b0-c7c2ab77dd53","CommodityApprovalforSubmittedRequest","Pass",""

@@ -1,0 +1,473 @@
+{
+	"module": "RealEstateBrokerElements",
+	"models": [
+	{
+
+			"name": "mainInfoDetailsOfRealEstateBroker",
+			"elements": [
+				{
+					"key": "supplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLink",
+					"value": "link_ivmenu00_menu_0_sub0_sub0",
+					"type": "ID"
+				},
+				{
+					"key": "supplierType",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_ddlType_x",
+					"type": "ID"
+				},
+				{
+					"key": "legalName",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtName_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "SupplierAddressNameAdditional",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCompNom_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "addressLine1",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtVoie_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "addressCity",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCity_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "addressState",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlState_x_txtddlState_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "addressZipCode",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtZip_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "addressCountry",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlPays_x",
+					"type": "ID"
+				},
+								{
+					"key": "realEstateBrokerEquatorIdEVID",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x__sup_fm_equator_id_x_x",
+					"type": "ID"
+				},
+								{
+					"key": "realEstateBrokerUsingWeb",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtSupUseWeb_x0",
+					"type": "ID"
+				},
+								{
+					"key": "realEstateBrokerIsPayable",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtSupPayTrx_x0",
+					"type": "ID"
+				},
+				{
+					"key": "saveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+								{
+					"key": "supplierId",
+					"value": "//td[text()='Supplier ID : ']/following-sibling::td/div",
+					"type": "XPATH"
+				},
+								{
+					"key": "legalNameD",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_txtName_x_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "optInD",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_selFoiynoCodeOptIn_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "addressLineD",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtVoie_x_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "cityD",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtCity_x_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "stateD",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlState_x_txtddlState_x_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "zipCodeD",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_txtZip_x_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "countryD",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_proxyAdr_x_ddlPays_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "supplierTypeD",
+					"value": "body_x_tabc_x_identity_x_prxidentity_x_ddlType_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "supplierHierarchyD",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_selLevel_x__label",
+					"type": "ID"
+				},
+								{
+					"key": "supplierClassificationD",
+					"value": "ddlbody_x_tabc_x_identity_x_prxidentity_x_selClasCode_x__label",
+					"type": "ID"
+				}
+			]
+		},
+					{
+			"name": "AdditionalInfoOfRealEstateBroker",
+			"elements": [
+				{
+					"key": "additionalInfoTab",
+					"value": "#body_x_tabc_containerTab_partadmin .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "nameAdditional",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtCompNom_x_x",
+					"type": "ID"
+				},
+								{
+					"key": "addInfoAddressLine1",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtVoie_x_x",
+					"type": "ID"
+				},
+												{
+					"key": "addInfoCity",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtCity_x_x",
+					"type": "ID"
+				},
+												{
+					"key": "addInfoZip",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtZip_x_x",
+					"type": "ID"
+				},
+												{
+					"key": "addInfoState",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_ddlState_x_txtddlState_x_x",
+					"type": "ID"
+				},
+																{
+					"key": "addInfoCountry",
+					"value": "ddlbody_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_ddlPays_x",
+					"type": "ID"
+				},
+																{
+					"key": "saveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+																{
+					"key": "addressLineD",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtVoie_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "cityD",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtCity_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "zipCodeD",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_txtZip_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "stateD",
+					"value": "body_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_ddlState_x_txtddlState_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "countryD",
+					"value": "ddlbody_x_tabc_x_admin_x_prxadmin_x_proxyAdrPay_x_ddlPays_x__label",
+					"type": "ID"
+				}
+			]
+		},
+		
+		{
+			"name": "contactInfoForCreateSupplier2",
+			"elements": [
+				{
+					"key": "contactInfoTab",
+					"value": "#body_x_tabc_containerTab_partcontact .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "addAContact",
+					"value": "body_x_tabc_x_contact_x_prxcontact_x_proxyContact_x_selContact_x_btnselContact_btn2",
+					"type": "ID"
+				},
+								{
+					"key": "contactManagementStatus",
+					"value": "ddlbody_x_pxCtc_x_ContactControl_x_selStatusCode_x",
+					"type": "ID"
+				},
+												{
+					"key": "contactInfoLastName",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactLastname_x_x",
+					"type": "ID"
+				},
+												{
+					"key": "contactInfoFirstName",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactFirstname_x_x",
+					"type": "ID"
+				},
+												{
+					"key": "contactInfoEmail",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactEmail_x_x",
+					"type": "ID"
+				},
+																{
+					"key": "contactInfoPhone",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactPhone_x_x",
+					"type": "ID"
+				},
+							{
+					"key": "lastNameD",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactLastname_x_x__label",
+					"type": "ID"
+				},
+							{
+					"key": "firstNameD",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactFirstname_x_x__label",
+					"type": "ID"
+				},
+							{
+					"key": "emailD",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactEmail_x_x__label",
+					"type": "ID"
+				}
+				,
+							{
+					"key": "phoneNoD",
+					"value": "body_x_pxCtc_x_ContactControl_x_txtContactPhone_x_x__label",
+					"type": "ID"
+				}
+				,
+							{
+					"key": "stateD",
+					"value": "body_x_pxCtc_x_ContactAddressControl_x_ddlState_x_txtddlState_x_x__label",
+					"type": "ID"
+				}
+				,
+							{
+					"key": "countryD",
+					"value": "ddlbody_x_pxCtc_x_ContactAddressControl_x_ddlPays_x__label",
+					"type": "ID"
+				}
+			]
+		},
+		
+		{
+			"name": "CreateRealEstateBrokerSupplier",
+			"elements": [
+				{
+					"key": "supplierRole",
+					"value": "//*[text()='Role']/../following-sibling::tr[2]/td[11]//select",
+					"type": "XPATH"
+				},
+				{
+					"key": "supplierRole2",
+					"value": "//*[text()='Role']/../following-sibling::tr[2]/td[11]//select",
+					"type": "XPATH"
+				},
+								{
+					"key": "saveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "mainInfoTab",
+					"value": "//span[text()='Main Info']",
+					"type": "XPATH"
+				},
+												{
+					"key": "supplierId",
+					"value": "//td[text()='Supplier ID : ']/following-sibling::td/div",
+					"type": "XPATH"
+				}
+			]
+		},
+		
+		{
+			"name": "SupplierContactManagement",
+			"elements": [
+				{
+					"key": "saveButton",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "superLoginIcon",
+					"value": "//*[@class='icon_base icon_profil']",
+					"type": "XPATH"
+				},
+								{
+					"key": "superLoginlogin",
+					"value": "body:x:pxCtc:x:txtLoginName:x:x",
+					"type": "NAME"
+				},
+												{
+					"key": "superLoginpassword",
+					"value": "body:x:pxCtc:x:txtLoginPass:x:x",
+					"type": "NAME"
+				},
+												{
+					"key": "ContactInfoSaveAndClose",
+					"value": "proxyActionBar_x__cmdEnd_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "regenaratePasswordButton",
+					"value": "//img[@class='icon_base icon_invite']",
+					"type": "XPATH"
+				},
+												{
+					"key": "regenaratepassword",
+					"value": "proxyActionBar:x:resend_btn2",
+					"type": "NAME"
+				},
+												{
+					"key": "saveButtonMarkC",
+					"value": "//span[@class='fa fa-times']",
+					"type": "XPATH"
+				},
+																{
+					"key": "regenaratePasswordClose",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+																{
+					"key": "loginD",
+					"value": "//table[@id='body_x_pxCtc_x_LoginFrame']/tbody/tr[2]/td/div/table/tbody/tr[1]/td[1]",
+					"type": "XPATH"
+				},
+																{
+					"key": "passwordD",
+					"value": "//table[@id='body_x_pxCtc_x_LoginFrame']/tbody/tr[2]/td/div/table/tbody/tr[2]/td[1]",
+					"type": "XPATH"
+				},
+																{
+					"key": "lastNameD",
+					"value": "body_x_pxCtc_x_ContactControl_x_ContactControl_x_txtContactLastname_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "firstNameD",
+					"value": "body_x_pxCtc_x_ContactControl_x_ContactControl_x_txtContactFirstname_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "emailD",
+					"value": "body_x_pxCtc_x_ContactControl_x_ContactControl_x_txtContactEmail_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "supplierD",
+					"value": "body_x_pxCtc_x_ContactControl_x_ContactControl_x_selSuppliers_x_txtselSuppliers_x_x__label",
+					"type": "ID"
+				},
+																{
+					"key": "saveD",
+					"value": "proxyActionBar_x__cmdSave_btn2",
+					"type": "ID"
+				},
+																{
+					"key": "closeD",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				}	
+			]
+		},
+		
+		{
+			"name": "ApprovalWorkflowForRealEstateBroker",
+			"elements": [
+				{
+					"key": "approvalWorkflowTab",
+					"value": "#body_x_tabc_containerTab_partworkflow .tab_label_class > div",
+					"type": "CSS"
+				},
+				{
+					"key": "approvalWorkflowSubmitForDiligence",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersINI_btn2",
+					"type": "ID"
+				},
+								{
+					"key": "approvalWorkflowSubmitToWorkflow",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersots_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "approvalWorkflowContinueOnBoarding",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersm_trax_chk_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "approvalWorkflowProfileDocumentUpdate",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_sup_update_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "approvalWorkflowBrokerApprove",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_sup_ops_review_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "approvalWorkflowBrokerNoFindings",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_due_diligence_btn2",
+					"type": "ID"
+				},
+												{
+					"key": "approvalWorkflowBrokerTraxUpdated",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_sup_op_trax_upd_btn2",
+					"type": "ID"
+				},
+																{
+					"key": "approvalWorkflowProcureOneUpdated",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_upd_proc_one_btn2",
+					"type": "ID"
+				},
+																				{
+					"key": "approvalWorkflowACHInformationUpdated",
+					"value": "proxyActionBar_x_valFM_SUPREF_Suppliersfm_upd_ach_btn2",
+					"type": "ID"
+				},
+																				{
+					"key": "approvalWorkflowApproveFinal",
+					"value": "proxyActionBar_x_valFM_SUPREF_SuppliersVAL1_btn2",
+					"type": "ID"
+				},
+																				{
+					"key": "approvalWorkflowBrokerReason",
+					"value": "proxyActionBar_x_txtWflRefuseMessage_x_x",
+					"type": "ID"
+				},
+																				{
+					"key": "approvalWorkflowBrokerReasonConfirm",
+					"value": "proxyActionBar_x_btnWflRefuseMessage_btn2",
+					"type": "ID"
+				}	
+			]
+		}
+	]
+}																		

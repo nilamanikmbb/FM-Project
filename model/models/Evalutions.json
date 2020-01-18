@@ -1,0 +1,300 @@
+{
+	"module": "EvalutionElements",
+	"models": [
+	{
+
+			"name": "evalutionPage",
+			"elements": [
+				{
+					"key": "supplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+								{
+					"key": "evalutionsLink",
+					"value": "link_ivmenu00_menu_0_sub5",
+					"type": "ID"
+				},
+				{
+					"key": "evaluationsPeriod",
+					"value": "body_x_selQstEvalPeriod_x_txtselQstEvalPeriod_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "evalutionsStatus",
+					"value": "ddlbody_x_selStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "evalutionsEvaluator",
+					"value": "body_x_selContact_x_txtselContact_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "evalutionsQuestionaire",
+					"value": "body_x_selQuestGuid_x_txtselQuestGuid_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "evalutionsType",
+					"value": "ddlbody_x_selQuesttypeCode_7F7A9319_x",
+					"type": "ID"
+				},
+				{
+					"key": "evalutionsSearch",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "evalutionsReset",
+					"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+					"type": "ID"
+				}
+			]
+		},		
+		{
+
+			"name": "createSupplier",
+			"elements": [		
+				{
+					"key": "createSupplierDots",
+					"value": "body_x_selEvalObjects_x_btnselEvalObjects_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierClose",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierKeywords",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierState",
+					"value": "body_x__supplier_state__x_txt_supplier_state__x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierOverview",
+					"value": "body_x_txtSupCommodityComment_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierType",
+					"value": "ddlbody_x_ddlType_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierStatus",
+					"value": "ddlbody_x_ddlStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplieridentity",
+					"value": "//table[@id='body_x_placeholder_supplier_130121155538']/tbody/tr[1]/td/table/tbody/tr/td[2]/span/span/h4",
+					"type": "XPATH"
+				},
+				{
+					"key": "createSupplierHierarchy",
+					"value": "ddlbody_x_ddlLevel_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierOrganisation",
+					"value": "body_x_selOrg_x_txtselOrg_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLimitComodity",
+					"value": "body_x_chkLimitFam_x0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierRegionsServed",
+					"value": "body_x_selArea_x_txtselArea_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierPSID",
+					"value": "body_x_sup_code_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierUserBookmarkSupplier",
+					"value": "body_x__supplier_bookmark_x_txt_supplier_bookmark_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "ddlbody_x_ddlStatus_x",
+					"value": "createSupplierStatus",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierActiveSupplier",
+					"value": "ddlbody_x_selYesnCodeActiveSup_1_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCritically",
+					"value": "ddlbody_x_selCritCode_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLimitOrganisation",
+					"value": "body_x_chkLimitOrga_x0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierFavourite",
+					"value": "body_x_chkSupBook_x0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAlerts",
+					"value": "body_x_selAnomalies_x_txtselAnomalies_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierTaxNumber",
+					"value": "body_x_sup_tva_ic_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierLockedSupplier",
+					"value": "body_x_cbChangeRequestLocked_x0",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCity",
+					"value": "body_x_txtCity_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierZipCode",
+					"value": "body_x_txtZipCode_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierAddressState",
+					"value": "body_x_selState_x_txtselState_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierFolder",
+					"value": "ddlbody_x_selDocType_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierFollow",
+					"value": "ddlbody_x_chkFollow_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierDocsMissing",
+					"value": "ddlbody_x_chkMissingDoc_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierConfirmity",
+					"value": "ddlbody_x_selDocStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierValidity",
+					"value": "body_x_ddlValidity_x",
+					"type": "ID"
+				},
+				{
+					"key": "createSupplierCheck",
+					"value": "//table[@id='body_x_ddlStatus_x_vddlStatus_x']/tbody/tr/td[2]",
+					"type": "XPATH"
+				}
+			]
+		},		
+		{
+
+			"name": "browseContracts",
+			"elements": [		
+				{
+					"key": "contractDots",
+					"value": "body_x_selContract_x_btnselContract_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "contractKeywords",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractStatus",
+					"value": "ddlbody_x_ddlProgress_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractContractType",
+					"value": "ddlbody_x_selTypeContract_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractCostCenter",
+					"value": "body_x_orga_node_x_txtorga_node_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractDateFrom",
+					"value": "body_x_txtDate_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractDateTo",
+					"value": "body_x_txtDate_x_rtxtDate_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractPrimaryCategory",
+					"value": "body_x_selFamily_x_txtselFamily_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractManagementEntity",
+					"value": "body_x_selEntity_x_txtselEntity_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractContact",
+					"value": "body_x_selContact_x_txtselContact_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractProjectCode",
+					"value": "body_x_project_id_x_txtproject_id_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractPeopleSoftProject",
+					"value": "body_x_selFundingId_x_txtselFundingId_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractRenewalTypes",
+					"value": "ddlbody_x_renewaltype_code_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractAlerts",
+					"value": "body_x_selAnomalies_x_txtselAnomalies_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "contractClose",
+					"value": "proxyActionBar_x_BackAction_btn2",
+					"type": "ID"
+				}
+			]
+		}
+	]
+}				
+				
+				

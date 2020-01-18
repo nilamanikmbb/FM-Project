@@ -1,0 +1,80 @@
+{
+   "module" : "SupplierRiskIndicatorElements",
+   "models" : [
+                 {
+                  "name" : "SupplierRiskIndicatorPage",
+                  "elements" : [
+                  		{
+                  		"key" : "supplierLink",
+                  		"value" : "link_ivmenu00_menu_0",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorLink",
+                  		"value" : "link_ivmenu00_menu_0_sub9",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierDocumentKeywords",
+                  		"value" : "body_x_txtQuery_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorRiskFamily",
+                  		"value" : "body_x_ddlFamilyRisk_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorStatus",
+                  		"value" : "ddlbody_x_ddlStatus_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorCreateIndicator",
+                  		"value" : "proxyActionBar_x__cmdNew_btn2",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorCode",
+                  		"value" : "body_x_txtCode_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorCreateRiskFamily",
+                  		"value" : "ddlbody_x_selIndicCodeParent_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorLabel",
+                  		"value" : "body_x_txtLabel_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorDescription",
+                  		"value" : "//table[@id='body_x_phc']/tbody/tr[4]/td[2]/div/div",
+                  		"type" : "XPATH"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorOrder",
+                  		"value" : "body_x_txtOrder_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "supplierRiskIndicatorClose",
+                  		"value" : "proxyActionBar_x_BackAction_btn2",
+                  		"type" : "ID"
+                  		},
+                  		{
+						"key": "supplierRiskIndicatorSearch",
+						"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+						"type": "ID"
+						},
+						{
+						"key": "supplierRiskIndicatorReset",
+						"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+						"type": "ID"
+						}
+                  	]
+                }
+            ]
+        }         		

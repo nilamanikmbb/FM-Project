@@ -1,0 +1,50 @@
+{
+	"module": "UnduplicateSupplierElements",
+	"models": [
+					{
+			"name": "UnduplicateSupplierPage",
+			"elements": [
+				{
+					"key": "supplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplier",
+					"value": "link_ivmenu00_menu_0_sub7",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplierAlgorithm",
+					"value": "body_x_selAlgo_x_txtselAlgo_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplierLevel",
+					"value": "ddlbody_x_selLevel_x",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplierNotaDupliRadioBtn",
+					"value": "body_x_chkDisplayNotDuplicate_x0",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplierSearch",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplierReset",
+					"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "unduplicateSupplierKeywords",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				}
+			]
+		}
+	]
+}				

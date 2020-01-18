@@ -1,0 +1,127 @@
+{
+   "module" : "SupplierPerfomanceElements",
+   "models" : [
+                 {
+                  "name" : "SupplierPerformancePage",
+                  "elements" : [
+                  		{
+                  		"key" : "supplierLink",
+                  		"value" : "link_ivmenu00_menu_0",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformanceLink",
+                  		"value" : "link_ivmenu00_menu_0_sub3",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformancKeywords",
+                  		"value" : "body_x_txtQuery_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformancType",
+                  		"value" : "//select[@id='ddlbody_x_selQuestType_x']",
+                  		"type" : "XPATH"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformancOrganistion",
+                  		"value" : "body_x_selOrga_x_txtselOrga_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformancCommodity",
+                  		"value" : "body_x_selFamily_x_txtselFamily_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformancSuppliersDots",
+                  		"value" : "body_x_selSupplier_x_btnselSupplier_btn2",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "SupplierPerformancCampaign",
+                  		"value" : "proxyActionBar_x__cmdNew_btn2",
+                  		"type" : "ID"
+                  		},
+
+                  		{
+						"key": "supplierPerformancSearch",
+						"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+						"type": "ID"
+						},
+						{
+						"key": "supplierPerformancReset",
+						"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+						"type": "ID"
+						}
+					]
+				},
+				{
+                  "name" : "CreateNewCampaign",
+                  "elements" : [
+                  		{
+                  		"key" : "CreateNewCampaignLabel",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtLabel_x_txtLabelen",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignDescription",
+                  		"value" : "//table[@id='body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtDesc_x_ptxtDescen']/tbody/tr/td[1]/div/div",
+                  		"type" : "XPATH"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignType",
+                  		"value" : "ddlbody_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selType_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignOrganisation",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selOrga_x_txtselOrga_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignLabelReviewDate",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtQuestBusinessReviewDate_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignEvaluatedPeriod",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selPeriod_x_txtselPeriod_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignManager",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selResp_x_txtselResp_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignComodity",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selFamily_x_txtselFamily_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignEndDate",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtDateTo_x_x",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignAutoOpenRadioBtn",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtQuestAutoOpen_x0",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignAutoCloseRadioBtn",
+                  		"value" : "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_chkAutoClose_x0",
+                  		"type" : "ID"
+                  		},
+                  		{
+                  		"key" : "CreateNewCampaignAlert",
+                  		"value" : "ddlbody_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_prxAnomalies_x_selErrors_x",
+                  		"type" : "ID"
+                  		}
+                  	]
+                 }
+              ]
+          }    		
+						

@@ -1,0 +1,106 @@
+{
+	"module": "ConfigureQuestionnairesElements",
+	"models": [
+	{
+
+			"name": "ConfigureQuestionnaires",
+			"elements": [
+				{
+					"key": "supplierLink",
+					"value": "link_ivmenu00_menu_0",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesLink",
+					"value": "link_ivmenu00_menu_0_sub2",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesKeywords",
+					"value": "body_x_txtQuery_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesType",
+					"value": "ddlbody_x_selQuestType_x",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesOrganisation",
+					"value": "body_x_selOrga_x_txtselOrga_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesCommodity",
+					"value": "body_x_selFamily_x_txtselFamily_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesStatus",
+					"value": "ddlbody_x_selStatus_x",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesManager",
+					"value": "body_x_selLoginResp_x_txtselLoginResp_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesTempRadioBtn",
+					"value": "body_x_chkTemplate_x0",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesSearch",
+					"value": "body_x_prxFilterBar_x_cmdSearchBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesReset",
+					"value": "body_x_prxFilterBar_x_cmdRazBtn_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "configureQuestionnairesCreateTemplate",
+					"value": "proxyActionBar_x__cmdNew_btn2",
+					"type": "ID"
+				},
+				{
+					"key": "createTemplateLabel",
+					"value": "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtLabel_x_txtLabelen",
+					"type": "ID"
+				},
+				{
+					"key": "createTemplateDescription",
+					"value": "//table[@id='body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_txtDesc_x_ptxtDescen']/tbody/tr/td[1]/div/div",
+					"type": "XPATH"
+				},
+				{
+					"key": "createTemplateType",
+					"value": "ddlbody_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selType_x",
+					"type": "ID"
+				},
+				{
+					"key": "createTemplateOrganisation",
+					"value": "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selOrga_x_txtselOrga_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createTemplateCommodity",
+					"value": "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_selFamily_x_txtselFamily_x_x",
+					"type": "ID"
+				},
+				{
+					"key": "createTemplateAlert",
+					"value": "ddlbody_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_prxAnomalies_x_selErrors_x",
+					"type": "ID"
+				},
+				{
+					"key": "createChoiceListRadiobtn",
+					"value": "body_x_tabCampaign_x_prxInfo_x_prxprxInfo_x_chkTemplateForChoices_x0",
+					"type": "ID"
+				}
+			]
+		}
+	]
+}				

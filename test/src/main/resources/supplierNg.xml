@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.fanniemae.automation.listeners.JyperionListener" />
+		<listener class-name="com.fanniemae.automation.listeners.ExtentReporterNG" />
+	</listeners>
+	<test name="Test1" allow-return-values="true">
+		<classes>
+			<class name="com.techouts.fanniemae.supplier.SupplierReg"/>
+       		<class name="com.techouts.fanniemae.supplier.ConfigureQuestionnaire"/>  
+			 <class name="com.techouts.fanniemae.supplier.Evalutions"/> 
+			<class name="com.techouts.fanniemae.supplier.SupplierDocuments"/>
+			<class name="com.techouts.fanniemae.supplier.Unduplicate_Supplier"/>
+			<class name="com.techouts.fanniemae.supplier.BrowseSupplierContact"/>
+		</classes>
+	</test>
+</suite>
